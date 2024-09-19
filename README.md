@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
+    
 <head>
     <label for="combustivel">Valor do combustivel por litro:</label>
     <input type="number" id="combustivel"><br>
