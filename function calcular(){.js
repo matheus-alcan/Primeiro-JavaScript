@@ -1,4 +1,5 @@
 function calcular(){
+    
     const etanol = parseFloat(document.getElementById("etanol").value);
     const gasolina = parseFloat(document.getElementById("gasolina").value);
     const etkm = parseFloat(document.getElementById("etkm").value);
@@ -7,10 +8,12 @@ function calcular(){
     const mensagem = "Resultado";
 
     function validarDados(){
+        
         if (isNaN(etanol) || isNaN(gasolina) || isNaN(etkm) || isNaN(gakm) || isNaN(distancia) || etkm === 0 || gakm === 0){
         alert("Por favor, prencha todos os campos corretamente.");
         return false;
     }
+        
     return true;
     }
 
