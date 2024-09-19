@@ -8,7 +8,6 @@ function calcular(){
     const mensagem = "Resultado";
 
     function validarDados(){
-        
         if (isNaN(etanol) || isNaN(gasolina) || isNaN(etkm) || isNaN(gakm) || isNaN(distancia) || etkm === 0 || gakm === 0){
         alert("Por favor, prencha todos os campos corretamente.");
         return false;
@@ -38,5 +37,4 @@ function calcular(){
     }else{
         maisEconomico.innerHTML = "O Etanol e a Gasolina terão o mesmo gasto.";
     }
-
 }
